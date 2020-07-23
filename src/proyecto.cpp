@@ -7,9 +7,10 @@ using namespace std;
 int main()
 {  
 
-    int opc, edad; 
+    int opc, edad;
+    char nombre[30],apellido[30];
     char respuesta1, respuesta2, respuesta3, respuesta4, respuesta5,respuesta6, sexo; 
-    char nombre[50];
+    //char nombre[50];
     setlocale(LC_ALL,"Spanish");
     
     cout << endl;
@@ -34,6 +35,8 @@ int main()
             cout << "---------------------------: " << endl;
             cout << "Digite su nombre: " << endl ;
             cin >> nombre;
+            cout << " cual es su apellido" << endl;
+            cin  >> apellido;
             fflush(stdin);
             cout << "Cual es su edad:" << endl;
             cin  >> edad;
@@ -50,6 +53,8 @@ int main()
             cout << "2. En que dispositivo la utilizas" << endl;
             cout << "1. Telefono\t\t\t 2. Laptop" << endl; 
             cin  >> respuesta2;
+            
+            cout << " el nombre completo del encuestado es: " << nombre << endl <<apellido <<endl;
         break;
 
         case 2:
