@@ -12,15 +12,16 @@ int main()
     char nombre[50];
     setlocale(LC_ALL,"Spanish");
     
-
-    cout << "-----------------------MENU------------------------- " << endl;
-    cout << "____________________________________________________ " << endl;
-    cout << "---1------NUEVA METODOLOGIA DE ESTUDIO UTH (ZOOM)--- " << endl;
-    cout << "---2------TIENDA DE VIDEOJUEGOS MAX----------------- " << endl;
-    cout << "---3----------------PANQUESITOS--------------------- " << endl;
-    cout << "---4------------------DOCENTES---------------------- " << endl;
-    cout << "____________________________________________________ " << endl;
-    cout << "**************************************************** " << endl;
+    cout << endl;
+    cout << "---------------------------MENU--------------------------" << endl;
+    cout << "*********************************************************" << endl;
+    cout << "***___________________________________________________***" << endl;
+    cout << "*** 1------NUEVA METODOLOGIA DE ESTUDIO UTH (ZOOM)--- ***" << endl;
+    cout << "*** 2--------TIENDA DE VIDEOJUEGOS MAX--------------- ***" << endl;
+    cout << "*** 3----------------PANQUESITOS--------------------- ***" << endl;
+    cout << "*** 4------------------DOCENTES---------------------- ***" << endl;
+    cout << "***___________________________________________________***" << endl;
+    cout << "*********************************************************" << endl;
 
     cout << " DIGITE UNA OPCION: " << endl;
     cin  >> opc;
@@ -42,7 +43,7 @@ int main()
             fflush(stdin);
             cout << " " << endl;
             cout << " " << endl;
-            cout << "1. Utilizas la aplicaciÃ³n zoom " << endl;
+            cout << "1. Utilizas la aplicación zoom " << endl;
             cout << "1. Si\t\t\t 2. No" << endl;
             cin  >> respuesta1;
             fflush(stdin);
@@ -95,8 +96,8 @@ int main()
             cout << "a. si\t\tb. no\t\tc. aveces\t\td. nunca " << endl;
             cin  >>  respuesta1;
             fflush(stdin);
-            cout << "2. De que tamaÃ±o le gustarian los panquesitos " << endl;
-            cout << "a. grandes\t\tb. Medianos\t\tc. PequeÃ±os " << endl;
+            cout << "2. De que tamaño le gustarian los panquesitos " << endl;
+            cout << "a. grandes\t\tb. Medianos\t\tc. Pequeños " << endl;
             cin  >> respuesta2;
             cout << "3. Que tipo de jalea le gustaria en su panquesito " << endl;
             cout << "a. fresa\t\tb. uva\t\tc. leche condensada\t\td. chocolate " << endl;
@@ -114,7 +115,7 @@ int main()
             cout << "Digite su nombre: " << endl ;
             cin >> nombre;
             fflush(stdin);
-            cout << "CÃºal es su edad:" << endl;
+            cout << "Cúal es su edad:" << endl;
             cin  >> edad;
             fflush(stdin);
             cout << "sexo:" << endl;
@@ -122,26 +123,26 @@ int main()
             fflush(stdin);
             cout << " " << endl;
             cout << " " << endl;
-            cout << "1. Â¿El personal de la instituciÃ³n comparten la misma visiÃ³n? " << endl;
+            cout << "1. ¿El personal de la institución comparten la misma visión? " << endl;
             cout << "a. Desacuerdo\t\t\t b. Neutral\t\t\t c. De acuerdo" << endl;
             cin  >> respuesta1;
             fflush(stdin);
-            cout << "2. Â¿El personal es imparcial en todas las tareas relacionadas?" << endl;
+            cout << "2. ¿El personal es imparcial en todas las tareas relacionadas?" << endl;
             cout << "a. Desacuerdo\t\t\t b. Neutral\t\t\t c. De acuerdo" << endl;
             cin  >> respuesta2;
             fflush(stdin);
-            cout << "3. Â¿El personal tiene sentido de pertenencia y responsabilidad?" << endl;
+            cout << "3. ¿El personal tiene sentido de pertenencia y responsabilidad?" << endl;
             cout << "a. Desacuerdo\t\t\t b. Neutral\t\t\t c. De acuerdo" << endl;
             cin  >> respuesta3;
             fflush(stdin);
-            cout << "4. Â¿El personal se reÃºne constantemente para formar ideas para un mejor aprendizaje?" << endl;
+            cout << "4. ¿El personal se reúne constantemente para formar ideas para un mejor aprendizaje?" << endl;
             cout << "a. Desacuerdo\t\t\t b. Neutral\t\t\t c. De acuerdo" << endl;
             cin  >> respuesta4;
             fflush(stdin);
-            cout << "5. Â¿EstÃ¡s satisfecho con la remuneraciÃ³n que recibes como docente?" << endl;
+            cout << "5. ¿Estás satisfecho con la remuneración que recibes como docente?" << endl;
             cout << "a. Desacuerdo\t\t\t b. Neutral\t\t\t c. De acuerdo" << endl;
             cin  >> respuesta5;
-            cout << "6. Â¿El personal y los estudiantes estÃ¡n compremetidos con los valores de la universidad?" << endl;
+            cout << "6. ¿El personal y los estudiantes están compremetidos con los valores de la universidad?" << endl;
             cout << "a. Desacuerdo\t\t\t b. Neutral\t\t\t c. De acuerdo" << endl;
             cin  >> respuesta6;
             
